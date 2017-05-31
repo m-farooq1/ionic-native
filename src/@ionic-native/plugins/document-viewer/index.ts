@@ -97,6 +97,6 @@ export class DocumentViewer extends IonicNativePlugin {
    * @param [onError] {Function}
    */
   @Cordova({ sync: true })
-  viewDocument(url: string, contentType: string, options: Array<DocumentViewerOptions>, onShow?: Function, onClose?: Function, onMissingApp?: Function, onError?: Function): void { }
+  viewDocument(url: string, contentType: string, options: DocumentViewerOptions, onShow?: Function, onClose?: Function, onMissingApp?: Function, onError?: Function): void { }
 
 }
